@@ -12,7 +12,7 @@ class Registro(BaseModel):
 registros = {
   1: Registro(id_usuario=1, id=1, tipo="egreso", valor= 2600, fecha= "10-12-20", etiqueta="comida", nota="pina"),
   2: Registro(id_usuario=1, id=2, tipo="ingreso", valor=28000, fecha="10-12-20", etiqueta="venta", nota="galletas y torta"),
-  3: Registro(id_usuario=2, id=1, tipo="egreso", valor=2600, fecha="10-12-20", etiqueta="comida", nota="pina"),
+  3: Registro(id_usuario=2, id=1, tipo="egreso", valor=4000, fecha="10-12-20", etiqueta="comida", nota="pina"),
   4: Registro(id_usuario=2, id=2, tipo="ingreso", valor=28000, fecha="10-12-20", etiqueta="venta", nota="galletas y torta")
 }
 
